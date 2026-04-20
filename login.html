@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="page">
+  <main class="card auth-card">
+    <div class="avatar-ring" aria-hidden="true"></div>
+    <h1 class="card-title">Login</h1>
+
+    <form class="stack-form" action="#">
+      <label class="field">
+        <span class="field-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24">
+            <path d="M3 7.5h18v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+            <path d="m4 8 8 6 8-6"></path>
+          </svg>
+        </span>
+        <input type="email" placeholder="Email" aria-label="Email">
+      </label>
+
+      <label class="field">
+        <span class="field-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24">
+            <rect x="5" y="10" width="14" height="10" rx="2"></rect>
+            <path d="M8 10V7a4 4 0 0 1 8 0v3"></path>
+            <path d="M12 14.5v2.5"></path>
+          </svg>
+        </span>
+        <input type="password" placeholder="Password" aria-label="Password">
+      </label>
+
+      <a class="forgot-link" href="#">Forgot password?</a>
+      <button class="primary-button auth-button" type="button">Sign In</button>
+    </form>
+
+    <p class="bottom-copy">Don't have an account? <a href="formulario.html">Register</a></p>
+  </main>
+</body>
+</html>
